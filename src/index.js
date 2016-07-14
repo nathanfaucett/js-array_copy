@@ -1,5 +1,5 @@
-var clamp = require("clamp"),
-    isUndefined = require("is_undefined");
+var clamp = require("@nathanfaucett/clamp"),
+    isUndefined = require("@nathanfaucett/is_undefined");
 
 
 module.exports = copyArray;

@@ -1,5 +1,5 @@
 {
-  "name": "array_copy",
+  "name": "@nathanfaucett/array_copy",
   "version": "0.0.1",
   "description": "arrayCopy for the browser and node.js",
   "repository": {
@@ -21,15 +21,15 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.11.3",
-    "grunt-jsbeautifier": "^0.2.10",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jsbeautifier": "^0.2.13",
     "tap-spec": "^4.1.0",
     "tape": "^4.2.2",
     "zuul": "^3.7.2"
   },
   "dependencies": {
-    "clamp": "git://github.com/nathanfaucett/clamp.git",
-    "is_undefined": "git://github.com/nathanfaucett/is_undefined.git"
+    "@nathanfaucett/clamp": "^0.0.1",
+    "@nathanfaucett/is_undefined": "^0.0.1"
   }
 }
